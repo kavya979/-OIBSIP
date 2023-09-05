@@ -1,0 +1,229 @@
+body, ul, li, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    background-image: url('heroes.jpg');
+    background-size: 1400px;
+    font-family: "Phudu",cursive;
+    background-color: #f5f5f5;
+}
+hr {
+    color: #000000a2; 
+    height: 2px; 
+    margin: 0px 0; 
+    border-style:solid; 
+    border-width: 10px; 
+}
+
+
+/* Header styles */
+header {
+   
+    color: #ddb943;
+    height: 100px;
+    padding: 20px 0;
+    align-items: center;
+}
+    
+.logo{
+    height: 100px;
+    margin-right: 20px;
+}
+.logo_align{
+    display: inline-block;
+}
+.header_align{
+    display: inline-block;
+    text-shadow: 5px 5px 0 #332e0496;
+    margin-right: 400px;
+    vertical-align: top;
+}
+.menu_align{
+    display: inline-block;
+    vertical-align: top;
+}
+header h1 {
+    font-size: 36px;
+    text-align:left;
+    font-family: 'Phudu', cursive;
+}
+
+/* Navigation styles */
+nav ul {
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #111111;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    font-family: 'Phudu',bold;
+    color: #1c0438;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 32px;
+    text-shadow: 3px 3px 2px #9138e670;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    text-shadow: 3px 3px 2px #9138e670;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #470aa8;
+    color: #000000;
+    font-family: 'Phudu',bold;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    opacity: 70%;
+}
+
+/* Book list styles */
+.book-list {
+    background-color: #02264b65;
+    text-align: center;
+    text-shadow: 3px 2px 5px #ffffff;
+    padding: 40px 0;
+}
+
+.book-list h2 {
+    font-family: 'Phudu',bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.book-list ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.book-list li {
+    text-align: center;
+}
+
+.book-list img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* About author styles */
+.about-author {
+    background-image: url(hoo2.jpg);
+    background-size: 1500px;
+    padding: 50px 0;
+    text-align: center;
+    vertical-align: top;
+    
+}
+.a-a{
+    size: 500px;
+    background-color: #ffffffad;
+    background-size: 1000px;
+    margin-left: 20px;
+    justify-content:space-evenly;
+    padding: 20px 0;
+    display: flex;
+}
+.author{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    padding: 20px 0;
+}
+.about-author h1{
+    margin-right: 10px;
+    font-size: 40px;
+}
+.about-author img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+.about{
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+/* Shop and contact styles */
+.last_part{ 
+    background: size 1000px;
+    background-color: #093764ea;    
+}
+.shop,
+.contact {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.shop h2,
+.contact h2 {
+    font-size: 28px;
+    text-shadow:3px 3px 10px #ffffff;
+    margin-bottom: 20px;
+}
+.social-icons a i{
+	line-height:30px;
+    color: #000000;
+    justify-items: normal;
+  font-size:30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  margin-top: 20px;
+}
+.social-icons a:hover i{
+  box-shadow: 0px 0px 150px #ffffff;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+footer {
+    background-color: #0000009a;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
